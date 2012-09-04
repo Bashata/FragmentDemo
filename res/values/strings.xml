@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Fragment Test</string>
+    <string name="unremovable_fragment_info">This TextView is in a xml-declared Fragment and cannot be removed with a FragmentTransaction.</string>
+    <string name="removable_fragment_info">This TextView is in a programmatically-added Fragment and can be removed by the FragmentTransaction.</string>
+    <string name="insert_fragment">Insert Removable Fragment</string>
+    <string name="remove_fragment">Remove Removable Fragment</string>
+    <string name="outer_text">This TextView is declared in the Activity\'s layout file and is not inside any Fragment.</string>    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

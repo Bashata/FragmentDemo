@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <fragment
+        android:name="com.example.fragment.test.TestFragment"
+        android:id="@+id/test_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/test_fragment" />
+    <Button
+        android:id="@+id/fragment_toggle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_fragment"
+        android:layout_margin="@dimen/common_margin"
+        android:text="@string/insert_fragment"
+        />
+    <FrameLayout
+        android:id="@+id/second_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_toggle_button"
+        android:layout_margin="@dimen/common_margin"
+        />
+	<TextView
+	    android:id="@+id/outer_text"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:text="@string/outer_text"
+	    android:layout_alignParentBottom="true"
+	    android:layout_margin="@dimen/common_margin"
+	    />
+</RelativeLayout>
