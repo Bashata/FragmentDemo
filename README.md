@@ -1,0 +1,3 @@
+This project is intended to help Android developers get accustomed to the basics of developing with Fragments.  It provides a single Activity that starts with a single Fragment, and overrides the lifecycle callbacks in each to log when they are called.  Additionally, the Activity contains a button to add and remove another Fragment programmatically.
+
+The code is pretty straightforward, and I've tried to annotate it with explanations and references to relevant stackoverflow discussions.
